@@ -22,7 +22,8 @@ public class ContohChar {
 		
 		// char juga bisa disimpan dalam integer (ASCII/Unicode value)
 		int kodeHuruf = huruf1;
-		String biner1 = String.format("%8s",Integer.toBinaryString(huruf1)).replace(' ', '0');
+		String biner1 = String.format("%8s",Integer.toBinaryString(huruf1))
+				.replace(' ', '0');
 		System.out.println("Kode ASCII dari " +huruf1+ "=" +kodeHuruf);
 		System.out.println("Kode Biner dari " +huruf1+ "=" +biner1);
 		
