@@ -6,9 +6,10 @@ public class PerulanganFor3_2411532015 {
 		int jumlah = 0;
 		for (int i=1; i<=10; i++) {
 			System.out.print(i);
-			if (1<10) {
+			if (i<10) {
 				System.out.print(" + ");
 			}
+			jumlah+=i;
 		}
 		System.out.println();
 		System.out.println("Jumlah = "+jumlah);
