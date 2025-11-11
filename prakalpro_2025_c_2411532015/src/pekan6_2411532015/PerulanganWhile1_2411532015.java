@@ -18,7 +18,8 @@ public class PerulanganWhile1_2411532015 {
 				running = false;
 			}
 		}
-System.out.println("Anda sudah melakukan perulangan sebanyak " +counter+ " kali");
+System.out.println("Anda sudah melakukan perulangan sebanyak " 
+		+counter+ " kali");
 		scan.close();
 	}
 
