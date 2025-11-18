@@ -13,7 +13,8 @@ public class PanggilMahasiswa2_2411532015 {
 		a.setNim2(x);
 		a.setNama(y);
 		if(x.startsWith("25")) {
-			System.out.println(a.getNama() + " anda angkatan 2025");
+			System.out.println(a.getNama() + ""
+					+ " anda angkatan 2025");
 		}
 		if (a.getNim2().contains("1153")) {
 			System.out.println("Anda Mahasiswa Informatika");
